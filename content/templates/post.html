@@ -1,0 +1,11 @@
+<div class="card mb-3">
+    <div class="card-body">
+        <h3 class="card-title"><a href="$url$">$title$</a></h3>
+        $body$
+    </div>
+    $if(date)$
+    <div class="card-footer text-muted">
+        <h5>Posted on $date$ $if(author)$ by $author$ $endif$</h5>
+    </div>
+    $endif$
+</div>
